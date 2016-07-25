@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+body {
+    background-color: #19abff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #000000;
+}
+
+.header {
+    padding-top:10px;
+    color:#FFF;
+}
+.header a{
+    color: yellow;
+}
+
+.back {
+    margin-top:10px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.infoRows {
+    margin-top:30px;
+}
+
+.info {
+    padding:10px;
+}
+
+.online .info .well:hover {
+    background-color: darkgreen;
+}
+
+.offline .info .well:hover {
+    background-color: #af0000;
+}
+
+.notAvailable .info .well:hover {
+    background-color: #1aa8af;
+}
+
+.logo {
+    height:200px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50%;
+}
+.profileName {
+    margin-top: 5px;
+    margin-bottom:5px;
+}
+
+.links {
+    color: #000;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #FFF;
+    opacity: 3;
+}
+
+.hide {
+    display:none;
+}
